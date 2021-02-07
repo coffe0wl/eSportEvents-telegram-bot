@@ -1,0 +1,42 @@
+{
+  "name": "esportevents_bot",
+  "version": "0.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sov1ch/eSportEvents_bot.git"
+  },
+  "keywords": [
+    "telegram"
+  ],
+  "author": "Sowa A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sov1ch/eSportEvents_bot/issues"
+  },
+  "homepage": "https://github.com/Sov1ch/eSportEvents_bot#readme",
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hltv": "^2.20.2",
+    "hltv-api": "^2.0.1",
+    "lodash": "^4.17.20",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "nodemon": "2.0.4"
+  }
+}
